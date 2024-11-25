@@ -1,4 +1,5 @@
 🎮 Orphée - Un Jeu d'Aventure Mythologique
+---
 📖 Description
 
 Orphée est un jeu d'aventure 2D inspiré de la mythologie grecque. Plongez dans une aventure épique où vous incarnez un héros traversant un monde mystérieux, affrontant des créatures mythologiques et accomplissant des quêtes légendaires.
@@ -10,6 +11,7 @@ Orphée est un jeu d'aventure 2D inspiré de la mythologie grecque. Plongez dans
     Barre de vie avec 5 points de vie
     Période d'invincibilité après avoir subi des dégâts
     Ennemis avec patterns d'attaque uniques
+    ---
 
 🎒 Gestion d'Inventaire
 
