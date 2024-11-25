@@ -1,0 +1,33 @@
+.main-menu-background {
+    -fx-background-color: rgba(255, 0, 0, 0.3);
+    
+    -fx-background-image: url('/sprites/gui/menu/background.png');
+    background-image: url('/sprites/gui/menu/background.png');
+    
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    
+    -fx-min-width: 100%;
+    -fx-min-height: 100%;
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+}
+
+.menu-buttons {
+    -fx-alignment: center;
+    -fx-spacing: 10px;
+}
+
+.menu-button {
+    -fx-min-width: 200px;
+    -fx-min-height: 40px;
+    -fx-background-color: rgba(0, 0, 0, 0.5);
+    -fx-text-fill: #c0a080;
+    -fx-font-size: 16px;
+}
+
+.menu-button:hover {
+    -fx-background-color: rgba(0, 0, 0, 0.7);
+    -fx-cursor: hand;
+}

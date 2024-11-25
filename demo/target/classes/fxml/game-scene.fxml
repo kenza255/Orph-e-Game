@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane fx:id="gameRoot" xmlns:fx="http://javafx.com/fxml" 
+           fx:controller="main.java.game.ui.GameController">
+    <Canvas fx:id="gameCanvas" width="960" height="640"/>
+    
+    <fx:include fx:id="quest" source="quest.fxml"/>
+</StackPane>

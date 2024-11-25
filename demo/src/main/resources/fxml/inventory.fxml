@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Label?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" 
+      fx:controller="main.java.game.inventory.ui.InventoryUI"
+      styleClass="inventory-background"
+      stylesheets="/styles/style.css"
+      alignment="CENTER">
+    
+    <Label text="Inventaire" styleClass="inventory-title"/>
+    <GridPane fx:id="inventoryGrid" 
+              alignment="CENTER" 
+              hgap="5" 
+              vgap="5"/>
+</VBox>

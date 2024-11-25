@@ -1,0 +1,117 @@
+.inventory-background {
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+    -fx-padding: 20;
+    -fx-min-width: 672; 
+    -fx-min-height: 448;
+}
+
+.inventory-slot {
+    -fx-background-color: #444444;
+    -fx-border-color: white;
+    -fx-border-width: 1;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+}
+
+.inventory-title {
+    -fx-text-fill: white;
+    -fx-font-size: 18px;
+}
+
+.shop-background {
+    -fx-background-color: rgba(0, 0, 0, 0.9);
+    -fx-padding: 20;
+    -fx-min-width: 500;
+    -fx-min-height: 400;
+}
+
+.shop-title {
+    -fx-text-fill: white;
+    -fx-font-size: 24px;
+    -fx-padding: 0 0 20 0;
+}
+
+.shop-coins {
+    -fx-text-fill: yellow;
+    -fx-font-size: 18px;
+    -fx-padding: 0 0 20 0;
+}
+
+.shop-item {
+    -fx-background-color: #333333;
+    -fx-padding: 10;
+    -fx-border-color: #666666;
+    -fx-border-width: 1;
+}
+
+.shop-item-name {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+}
+
+.shop-item-price {
+    -fx-font-size: 14px;
+}
+
+.shop-item-price-affordable {
+    -fx-text-fill: #00ff00;
+}
+
+.shop-item-price-expensive {
+    -fx-text-fill: #ff0000;
+}
+
+.shop-button {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-padding: 5 10 5 10;
+}
+
+.shop-button:hover {
+    -fx-background-color: #555555;
+}
+
+.quest-dialog {
+    -fx-background-color: rgba(0, 0, 0, 0.9);
+    -fx-padding: 20;
+    -fx-min-width: 500;
+    -fx-min-height: 300;
+}
+
+.quest-title {
+    -fx-text-fill: #ffd700;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+}
+
+.quest-description {
+    -fx-text-fill: white;
+    -fx-font-size: 16px;
+    -fx-padding: 10 0;
+}
+
+.quest-choice-button {
+    -fx-background-color: #444444;
+    -fx-text-fill: white;
+    -fx-padding: 10 20;
+    -fx-min-width: 300;
+}
+
+.quest-choice-button:hover {
+    -fx-background-color: #666666;
+}
+
+.quest-reward {
+    -fx-text-fill: #ffd700;
+    -fx-font-size: 14px;
+    -fx-padding: 10 0;
+}
+
+.death-text {
+    -fx-font-family: "Times New Roman";
+    -fx-font-size: 72px;
+    -fx-fill: #8B0000;
+    -fx-stroke: #000000;
+    -fx-stroke-width: 2px;
+    -fx-effect: dropshadow(gaussian, #000000, 10, 0.5, 0, 0);
+}

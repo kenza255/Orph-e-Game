@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="main.java.game.ui.MainMenuController"
+      styleClass="main-menu-background"
+      alignment="CENTER"
+      spacing="20"
+      prefWidth="800"
+      prefHeight="600"
+      maxWidth="Infinity"
+      maxHeight="Infinity">
+    
+    <padding>
+        <Insets top="20" right="20" bottom="20" left="20"/>
+    </padding>
+
+    <VBox alignment="CENTER" spacing="15" styleClass="menu-buttons">
+        <Button text="Continuer la partie" onAction="#loadGame" styleClass="menu-button"/>
+        <Button text="Nouvelle partie" onAction="#newGame" styleClass="menu-button"/>
+        <Button text="Paramètres" onAction="#openSettings" styleClass="menu-button"/>
+        <Button text="Crédits" onAction="#showCredits" styleClass="menu-button"/>
+        <Button text="Quitter" onAction="#exitGame" styleClass="menu-button"/>
+    </VBox>
+</VBox>

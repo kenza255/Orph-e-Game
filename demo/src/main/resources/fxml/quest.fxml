@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<VBox fx:id="root" xmlns:fx="http://javafx.com/fxml" 
+      fx:controller="main.java.game.quest.ui.QuestUI"
+      styleClass="quest-dialog"
+      stylesheets="/styles/style.css"
+      spacing="10"
+      alignment="CENTER"
+      visible="false">
+    
+    <Label fx:id="questTitle" styleClass="quest-title"/>
+    <Label fx:id="questDescription" styleClass="quest-description" wrapText="true"/>
+    <VBox fx:id="choicesContainer" spacing="5" alignment="CENTER"/>
+    <Label fx:id="rewardLabel" styleClass="quest-reward"/>
+</VBox>
